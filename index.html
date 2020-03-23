@@ -4,14 +4,14 @@
   <title>DFU Challenge</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
   <div class="jumbotron text-center">
     <img src="banner.png" alt="DFUC banner" style="width:37%; min-width:300px;" />
+    </p>
     <h2>Diabetic Foot Ulcer Challenge 2020</h2>
   </div>
   
@@ -19,78 +19,214 @@
   <!-- http://demo.amitjakhu.com/dripicons/ -->
   
   <div class="container">
-    <div class="row">
+    <div class="card-deck mb-3 text-center">
+    
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/trophy.svg" width="40" alt="icon trophy">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">2020 Challenge Schedule</h4>
+          <p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary" style="padding: 3px;">Training dataset release</li>
+            <li class="list-group-item" style="padding: 5px;">01/04/2020</li>
+            <li class="list-group-item list-group-item-secondary" style="padding: 3px;">Test image dataset release</li>
+            <li class="list-group-item" style="padding: 5px;">01/07/2020</li>
+            <li class="list-group-item list-group-item-secondary" style="padding: 3px;">Submission deadline</li>
+            <li class="list-group-item" style="padding: 5px;">15/07/2020</li>
+            <li class="list-group-item list-group-item-secondary" style="padding: 3px;">Winner and invitation speakers</li>
+            <li class="list-group-item" style="padding: 5px;">15/08/2020</li>
+          </ul>
+        </div>
+      </div>
       
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/trophy.svg" width="50" alt="icon trophy">
-        <h3>2020 Challenge Schedule</h3>
-        <p>Training dataset release: 01/04/2020</p>
-        <p>Test image dataset release: 01/07/2020</p>
-        <p>Submission deadline: 15/07/2020</p>
-        <p>Winner and invitation speakers: 15/08/2020</p>
-      </div>
-        
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/folder-open.svg" width="50" alt="icon folder">
-        <h3>DFU Classification Dataset</h3>
-        <p>Applicants can request this dataset by completing the license agreement, then emailing a formal request to m.yap@mmu.ac.uk</p>
-        <p>Deadline: 15/07/2020</p>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/folder-open.svg" width="40" alt="icon folder">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">DFU Classification Dataset</h4>
+          <p>
+          <p>Applicants can request this dataset by completing the license agreement, then emailing a formal request to:</p>
+          <p>m.yap@mmu.ac.uk</p>
+          <p>Deadline: 15/07/2020</p>
+        </div>
       </div>
       
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/folder-open.svg" width="50" alt="icon folder">
-        <h3>DFU Infection & Ischemia Dataset</h3>        
-        <p>Coming soon...</p>
-        <p>This will be a classification challenge, with a dataset of DFU showing signs of infection, ischemia, or both.</p>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/folder-open.svg" width="40" alt="icon folder">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">DFU Infection & Ischemia Dataset</h4>
+          <p>
+          <p>Coming in 2021...</p>
+          <p>This will be a classification challenge, with a dataset of DFU showing signs of infection, ischemia, or both.</p>
+        </div>
       </div>
+      
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/user-group.svg" width="50" alt="icon user group">
-        <h3>Organisers</h3>        
-        <p>&#8226; Moi Hoon Yap, Manchester Metropolitan University</p>
-        <p>&#8226; Neil Reeves, Manchester Metropolitan University</p>
-        <p>&#8226; Andrew Boulton, University of Manchester and Manchester Royal Infirmary</p>
-        <p>&#8226; Satyan Rajbhandari, Lancashire Teaching Hospital</p>
-        <p>&#8226; David Armstrong, University of Southern California</p>
-        <p>&#8226; Arun G. Maiya, Manipal College and Health Professions and Indian Podiatry Association</p>
-        <p>&#8226; Bijan Najafi, Baylor College of Medicine in Texas</p>
-        <p>&#8226; Eibe Frank, University of Waikato</p>
-        <p>&#8226; Justina Wu, Waikato District Health Board</p>
+    <div class="card-deck mb-1 text-center">
+    
+      <div class="card mb-2 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/user-group.svg" width="40" alt="icon user group">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">Organisers</h4>
+          <p>
+          
+          <div class="card-group">
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>
+              <div class="card-body">
+                <h5 class="card-title">Moi Hoon Yap</h5>
+                <p class="card-text">Reader in Computer Vision; Lead, Human-Centred Computing; Manchester Metropolitan University, UK</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">Neil Reeves</h5>
+                <p class="card-text">Faculty Head of Research and Knowledge Exchange (RKE); Professor of Musculoskeletal Biomechanics; Manchester Metropolitan University, UK</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">Andrew Boulton</h5>
+                <p class="card-text">Professor of Medicine; University of Manchester and Manchester Royal Infirmary, UK</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+          <p>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>        
+              <div class="card-body">
+                <h5 class="card-title">Satyan Rajbhandari</h5>
+                <p class="card-text">Consultant Physician and Honorary Clinical Professor; Lancashire Teaching Hospitals, UK</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">David Armstrong</h5>
+                <p class="card-text">Professor Of Clinical Surgery; University of Southern California, USA</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">Arun G. Maiya</h5>
+                <p class="card-text">President, Indian Podiatry Association; Dean of Manipal College of Health Professions, India; Chief for Centre for Diabetic Foot Care & Research, MAHE, India</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+          <p>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>        
+              <div class="card-body">
+                <h5 class="card-title">Bijan Najafi</h5>
+                <p class="card-text">Professor of Surgery and Director of Clinical Research; Baylor College of Medicine, Texas, USA</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">Eibe Frank</h5>
+                <p class="card-text">Professor of Computer Science; University of Waikato, New Zealand</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+            </br>
+            <div class="card">
+              <div class="card-header"><img src="fonts/dripicons-master/SVG/user.svg" width="30" alt="icon user"></div>  
+              <div class="card-body">
+                <h5 class="card-title">Justina Wu</h5>
+                <p class="card-text">Clinical Director at Waikato District Health Board, New Zealand</p>
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+          
+        </div>
       </div>
       
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/graduation.svg" width="50" alt="icon graduation">
-        <h3>Technical Chairs</h3>                  
-        <p>&#8226; Bill Cassidy, Manchester Metropolitan University</p>
-        <p>&#8226; David Gillespie, Manchester Metropolitan University</p>
+    </div>
+    <p>
+    <div class="card-deck mb-3 text-center">
+      
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/user-group.svg" width="40" alt="icon user group">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">Technical Chairs</h4>          
+          <ul class="list-unstyled mt-3 mb-4">
+            <li><img src="fonts/dripicons-master/SVG/user.svg" width="15" alt="icon user"> Bill Cassidy, Manchester Metropolitan University</li>
+            <li><img src="fonts/dripicons-master/SVG/user.svg" width="15" alt="icon user"> David Gillespie, Manchester Metropolitan University</li>
+          </ul>
+        </div>
       </div>
       
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/mail.svg" width="50" alt="icon mail">
-        <h3>Primary Contact</h3>
-        <p>Moi Hoon Yap</p>
-        <p>Email: m.yap@mmu.ac.uk</p>
-      </div>    
-      
-      <div class="col-sm-4">
-        <img src="fonts/dripicons-master/SVG/checkmark.svg" width="50" alt="icon checkmark">
-        <h3>Ethical Approval</h3>        
-        <p>We received NHS Research Ethics Committee approval with REC reference number 15/NW/0539 to use the LTH foot images of DFU for our research.</p>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <img src="fonts/dripicons-master/SVG/folder-open.svg" width="40" alt="icon folder">
+        </div>
+        <div class="card-body">
+          <h4 class="my-0 font-weight-normal">Primary Contact</h4>
+          <p>
+          <p>Moi Hoon Yap</p>
+          <p>Email: m.yap@mmu.ac.uk</p>
+        </div>
       </div>
+      
     </div>
   </div>
   
-  <p style="margin-bottom:50px;"></p>
+  <p style="margin-bottom:50px;">
+  </p>
   
   <div class="footer-copyright text-center py-3">
     <h2>If you would like to sponsor the workshops, please contact: m.yap@mmu.ac.uk</h2>
   </div>
   
-  <p style="margin-bottom:70px;"></p>
+  <p style="margin-bottom:70px;">
+  </p>
 
   <!-- Copyright Footer -->
   <footer>
@@ -100,7 +236,11 @@
   </footer>
   <!-- Copyright Footer -->
   
-  <p style="margin-bottom:20px;"></p>
+  <p style="margin-bottom:20px;">
+  </p>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
